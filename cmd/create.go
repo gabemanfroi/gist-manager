@@ -9,13 +9,20 @@ import (
 // createCmd represents the create command
 var createCmd = &cobra.Command{
 	Use:   "create",
-	Short: "Create a new resource",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
+	Short: "Create a new Gist on GitHub",
+	Long: `Create a new Gist on GitHub with the specified content, description, 
+file extension, and filename. A Gist is a simple way to share code snippets or 
+small files with others. For example:
 
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+To create a Gist with a code snippet:
+  myapp create --content "func main() { fmt.Println('Hello, World!') }"
+
+To create a Gist with a description:
+  myapp create --content "Some important data" --description "Data file"
+
+To specify a file extension and filename:
+  myapp create --content "Code goes here" --extension "go" --filename "mycode.go"
+`,
 
 	Run: func(cmd *cobra.Command, args []string) {
 		app.CreateGist(cmd)
