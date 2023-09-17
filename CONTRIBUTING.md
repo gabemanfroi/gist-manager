@@ -67,14 +67,3 @@ If you encounter any issues, bugs, or have suggestions for improvements, please 
 By contributing to the Gist Manager project, you agree that your contributions will be licensed under the [MIT License](LICENSE).
 
 Thank you for contributing to Gist Manager! Your contributions help make this project better for everyone.
-```
-
-To use this template:
-
-1. Create a new file named `CONTRIBUTING.md` in the root directory of your project.
-
-2. Replace `<your-username>` with your GitHub username where necessary.
-
-3. Customize the content to match your project's contribution guidelines and requirements.
-
-4. Make sure to mention any specific testing or coding standards that contributors should follow in your project's guidelines.
